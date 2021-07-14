@@ -7,6 +7,6 @@ url: "https://zelic91.github.io" # the base hostname & protocol for your site, e
 github_username:  zelic91
 
 # Build settings
-theme: minima
+theme: zelic
 plugins:
   - jekyll-feed

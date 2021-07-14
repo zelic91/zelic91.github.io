@@ -1,3 +1,9 @@
+PATH
+  remote: zelic
+  specs:
+    zelic (0.1.0)
+      jekyll (~> 3.9)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -272,7 +278,7 @@ DEPENDENCIES
   github-pages (~> 215)
   jekyll
   jekyll-feed
-  minima
+  zelic!
 
 BUNDLED WITH
    2.2.17
