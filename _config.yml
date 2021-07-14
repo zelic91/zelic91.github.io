@@ -2,7 +2,7 @@ title: Zelic Page
 email: thuongnh.uit@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hello there, I'm Zelic from ZelicLabs.
-baseurl: "" # the subpath of your site, e.g. /blog
+# baseurl: ""
 url: "https://zelic91.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  zelic91
 
