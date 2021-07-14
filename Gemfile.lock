@@ -274,6 +274,7 @@ DEPENDENCIES
   github-pages (~> 215)
   jekyll
   jekyll-feed
+  jekyll-remote-theme
   zelic
 
 BUNDLED WITH
