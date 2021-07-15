@@ -7,8 +7,8 @@ url: "https://zelic91.github.io"
 github_username:  zelic91
 
 # Build settings
-theme: zelic
-# remote_theme: zelic91/zelic
+# theme: zelic
+remote_theme: zelic91/zelic
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
