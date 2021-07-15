@@ -5,5 +5,5 @@
 layout: home
 title: I'm Zelic
 subtitle: Welcome to my humble blog
-hero-image: /assets/img/work.jpeg
+hero-image: /assets/img/city.jpeg
 ---

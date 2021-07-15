@@ -1,7 +1,7 @@
 PATH
   remote: zelic
   specs:
-    zelic (0.1.0)
+    zelic (0.1.1)
       jekyll (~> 3.9)
 
 GEM
@@ -279,6 +279,7 @@ DEPENDENCIES
   jekyll
   jekyll-feed
   jekyll-remote-theme
+  jemoji
   zelic!
 
 BUNDLED WITH

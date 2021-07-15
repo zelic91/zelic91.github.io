@@ -1,0 +1,72 @@
+---
+layout: post
+title: "Set up RSpec to save you time"
+date: 2021-07-09 13:02:21 +0700
+categories: rspec ruby
+image: /assets/img/tool.jpeg
+---
+
+As developers, we have to resolve bugs in our software. And the sooner we find them out, the better our lives are.
+
+Yes, I hear your voice. It's testing. You are brilliant.
+
+<!--more-->
+
+In this blog post, we will explore how we can set up testing for our Ruby on Rails projects with RSpec. Why RoR? Well, because I'm familiar with it.
+
+## 1. The Gemfile
+Enough long talk, let's install the dependencies in your Gemfile.
+
+{% highlight ruby %}
+# Gemfile
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'factory_bot_rails'
+  gem 'database_cleaner-active_record'
+  gem 'shoulda-matchers'
+  gem 'guard-rspec'
+end
+{% endhighlight %}
+
+Then just:
+
+{% highlight bash %}
+# Terminal
+$ bundle install
+{% endhighlight %}
+
+Let me have some words about the above libraries:
+1. `rspec-rails` is for, hmmm, RSpec itself.
+2. `factory_bot_rails` is used to manage testing data which guys often call them `fixtures`. 
+
+## 2. Initialize
+{% highlight bash %}
+# Terminal
+$ rails generate rspec:install
+$ guard init rspec
+{% endhighlight %}
+
+## 3. Configuration
+
+{% highlight ruby %}
+# rails_helper.rb
+
+RSpec.configure do |config|
+  
+  ...
+
+  config.include FactoryBot::Syntax::Methods
+  config.include RSpec::Rails::RequestExampleGroup, type: :request, file_path: /spec\/api/
+  config.include ActiveSupport::Testing::TimeHelpers
+end
+
+{% endhighlight %}
+
+## 4. Profit
+
+{% highlight bash %}
+# Terminal
+$ guard
+{% endhighlight %}
+
+And that's it. You are good to go now. Cheers!

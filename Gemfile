@@ -5,6 +5,7 @@ gem "jekyll"
 gem "zelic", path: "./zelic"
 gem "github-pages", "~>215", group: :jekyll_plugins
 gem "jekyll-remote-theme"
+gem "jemoji"
 
 group :jekyll_plugins do
   gem "jekyll-feed"

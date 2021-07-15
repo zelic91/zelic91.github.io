@@ -12,3 +12,4 @@ theme: zelic
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jemoji
