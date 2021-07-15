@@ -3,6 +3,14 @@ layout: post
 title: "Test Post 01"
 date: 2021-07-09 13:02:21 +0700
 categories: jekyll update
+image: https://d1qmdf3vop2l07.cloudfront.net/yellow-sage.cloudvent.net/hash-store/f698504f7bedb22ad5c1e0a3b1fc7a5e.jpg
 ---
 
 This is the test post 01
+
+{% highlight ruby %}
+
+def initialize()
+end
+
+{% endhighlight %}

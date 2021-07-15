@@ -1,3 +1,9 @@
+PATH
+  remote: zelic
+  specs:
+    zelic (0.1.0)
+      jekyll (~> 3.9)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -264,8 +270,6 @@ GEM
     unf_ext (0.0.7.7)
     unicode-display_width (1.7.0)
     zeitwerk (2.4.2)
-    zelic (0.1.0)
-      jekyll (~> 3.9)
 
 PLATFORMS
   x86_64-darwin-17
@@ -275,7 +279,7 @@ DEPENDENCIES
   jekyll
   jekyll-feed
   jekyll-remote-theme
-  zelic
+  zelic!
 
 BUNDLED WITH
    2.2.17

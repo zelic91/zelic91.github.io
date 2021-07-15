@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+subtitle: All about me - skills, experiences and more
 permalink: /about/
 ---
 
