@@ -2,7 +2,7 @@
 layout: post
 title: "Fast track React"
 date: 2021-09-21 22:32:21 +0700
-categories: rspec ruby
+categories: react
 image: /assets/img/fast.jpeg
 ---
 
