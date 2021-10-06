@@ -10,7 +10,7 @@ Everytime I'm back to create new thing with iOS, it's quite tough to search for 
 
 <!--more-->
 
-1. Setup
+# 1. Setup
 
 We will have to create a folder set to cope with the architecture. At this point, I stick with MVVM, but I don't want to use the commonsense folder set. Open the terminal (I use iTerm) and run the following command:
 
@@ -21,7 +21,7 @@ mkdir -p Resources Common Features Resources/Fonts Common/Persistence Common/Net
 Feel free to add more folders as you wish. Remember to add those folders in your XCode as groups, you just need to add the root folders.
 
 
-2. Dependencies
+# 2. Dependencies
 
 We will use Cocoapod to manage the dependencies. Still in the terminal:
 
@@ -53,10 +53,10 @@ Then of course, install the dependencies:
 pod install
 {% endhighlight %}
 
-3. Base classes
+# 3. Base classes
 
 I will finish this part later.
 
-4. Conclusion
+# 4. Conclusion
 
 Now you have a nice place to start playing with your idea.
